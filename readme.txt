@@ -43,3 +43,14 @@ let n4:'ts' = 'ts1' X
 
 通过：集合名词（类型名词）
 值可以赋值给变量的前提是值是属于变量限制的集合的！
+
+
+总结：
+1、基本类型： number string boolean null undefined  never  any  unkown
+2、顶部类型：any unkown 
+3、底部类型：amy never undefined null
+4、type关键字 ：定义新类型 、 定义类型别名
+5、联合类型:并集
+6、交叉类型：交集
+7、extends关键字：判断类型的兼容性关系（本质上就是集合的包含关系）
+8、分布式条件类型
