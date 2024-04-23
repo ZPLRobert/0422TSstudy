@@ -54,3 +54,14 @@ let n4:'ts' = 'ts1' X
 6、交叉类型：交集
 7、extends关键字：判断类型的兼容性关系（本质上就是集合的包含关系）
 8、分布式条件类型
+
+
+
+
+ 联合类型(并集)  求公共父类型
+ 交叉类型（交集） 求公共子类型
+ A & B = C
+ C extends A 且C extends B
+
+ A | B = C 
+ A extends C 且 B extends C
